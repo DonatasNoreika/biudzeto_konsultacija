@@ -1,8 +1,7 @@
 
 class Irasas:
-    def __init__(self, tipas, suma):
-        self.tipas = tipas
+    def __init__(self, suma):
         self.suma = suma
 
     def __str__(self):
-        return f"Įrašas {self.tipas}: {self.suma}"
+        return f"Įrašas {self.suma}"
