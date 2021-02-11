@@ -9,3 +9,6 @@ class PajamuIrasas(Irasas):
 
     def __str__(self):
         return f"Pajamos: {self.suma}, siuntėjas: {self.siuntejas}, tipas: {self.tipas}"
+
+    def __repr__(self):
+        return f"Pajamos: {self.suma}, siuntėjas: {self.siuntejas}, tipas: {self.tipas}"

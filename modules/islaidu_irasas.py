@@ -9,3 +9,6 @@ class IslaiduIrasas(Irasas):
 
     def __str__(self):
         return f"Išlaidos: {self.suma} apmokėjimo būdas: {self.apmokejimo_budas}, įgyta prekė/paslauga: {self.preke_paslauga}"
+
+    def __repr__(self):
+        return f"Išlaidos: {self.suma} apmokėjimo būdas: {self.apmokejimo_budas}, įgyta prekė/paslauga: {self.preke_paslauga}"
